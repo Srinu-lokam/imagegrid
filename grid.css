@@ -1,0 +1,32 @@
+#box{
+    display: grid;
+    background-image:url("https://img.gta5-mods.com/q75/images/avengers-music-theme-loading-screen/063149-6b723f0b83567178adeb86ff259f6c22.jpg");
+    background-size: cover;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap:20px 10px;
+    text-align: center;
+    
+}
+#box >div{
+    background-color:silver;
+    border: 1px solid black;
+    padding: 10px;
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+#item2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end:4;
+}
+
+img{
+    height: 100%;
+    width:100%;
+}
